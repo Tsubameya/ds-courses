@@ -582,6 +582,58 @@
    "source": "https://www.ironman.com/races/im-wales/course",
    "checked": "2026-10-11",
    "posted": "2025-03"
+  },
+  "df81f1103017": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-11/im703_western_sydney_course.gpx",
+   "km": 90.03,
+   "bytes": 114796,
+   "sha256": "8444f3494f5d3b4196e25b490b1b347eb3d0681417cd0de2fd80262a77b872da",
+   "source": "https://www.ironman.com/races/im703-western-sydney/course",
+   "checked": "2026-10-11",
+   "trk": [
+    2
+   ],
+   "posted": "2024-11",
+   "needs": 2
+  },
+  "bb31fdebd050": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-11/IM_Western_Australia_Overall_map_2024.gpx",
+   "km": 180.14,
+   "bytes": 203020,
+   "sha256": "78f366b62a318b02745c680f33c093f950f981f53ad8f93326ddf4accb446664",
+   "source": "https://www.ironman.com/races/im-western-australia/course",
+   "checked": "2026-10-11",
+   "trk": [
+    3
+   ],
+   "posted": "2024-11",
+   "needs": 2
+  },
+  "9077bbb32a8f": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-11/70.3%20Punta%20del%20Este%20Bike%20GPX.gpx",
+   "km": 90.52,
+   "bytes": 295722,
+   "sha256": "791801c621281a0c3fe9c5d9e081faaf76c88948dc8988ae02f60daf1a90e314",
+   "source": "https://www.ironman.com/races/im703-punta-del-este/course",
+   "checked": "2026-10-11",
+   "laps": 2,
+   "posted": "2024-11",
+   "needs": 2
+  },
+  "3efb48757908": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-11/IM%2070.3%20Bahrain%20Bike%20kml%202024.kml",
+   "km": 88.39,
+   "bytes": 58046,
+   "sha256": "beaec90e7cbbac5b54787cfef0295660147f638c011669fa86cf0350dab1584b",
+   "source": "https://www.ironman.com/races/im703-bahrain/course",
+   "checked": "2026-10-11",
+   "format": "kml",
+   "posted": "2024-11",
+   "needs": 2
   }
  }
 }
