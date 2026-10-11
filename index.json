@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-10",
+ "updated": "2026-10-11",
  "courses": {
   "318833fb955f": {
    "kind": "interpreted",
@@ -12,6 +12,519 @@
    "method": "assisted trace on the organiser's map",
    "checked": "2026-10-10",
    "shape": "out-and-back, one way drawn"
+  },
+  "d579870d10c7": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-09/IMVE2026bis_bike.gpx",
+   "km": 87.73,
+   "bytes": 136628,
+   "sha256": "991d57f41e6a01a61ef3631ca70c540632c0cee31130567d8f0bd945f50f9b81",
+   "source": "https://www.ironman.com/races/im703-versailles/course",
+   "checked": "2026-10-11"
+  },
+  "f86ed414bd9c": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-09/Bike%20Course%20GPX.gpx",
+   "km": 91.24,
+   "bytes": 68114,
+   "sha256": "4154f2129d260b798ad0de512d5cc3401c4e096b07872e69a54b95495c6786cc",
+   "source": "https://www.ironman.com/races/im703-sharm-el-sheikh/course",
+   "checked": "2026-10-11"
+  },
+  "d49c2420ee4b": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Cascais%20Bike%20gpx%202024.gpx",
+   "km": 90.5,
+   "bytes": 85369,
+   "sha256": "241cca56a294fb31218e2b09c917dcc9877613b474e6d66cd9053341591a2564",
+   "source": "https://www.ironman.com/races/im703-cascais/course",
+   "checked": "2026-10-11"
+  },
+  "635b692f4029": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%20Cascais%20Portugal%20Bike%20gpx%202024.gpx",
+   "km": 179.66,
+   "bytes": 173095,
+   "sha256": "010f04fdc2f40855f9b617b5d7e14f084989ea4dcdf9e5d7659a3df8d82319e4",
+   "source": "https://www.ironman.com/races/im-cascais/course",
+   "checked": "2026-10-11"
+  },
+  "7bc273053a85": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-09/BIKE_70.3_MALAGA_26.gpx",
+   "km": 89.78,
+   "bytes": 203434,
+   "sha256": "4cfabda47089c8eb95527d7c914cf2a91d7331e3d24c2c5ca02c7c0f69fb57f4",
+   "source": "https://www.ironman.com/races/im703-malaga/course",
+   "checked": "2026-10-11"
+  },
+  "9c38a6e7a389": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/IM%2070.3%20Porec%20Croatia%20Bike%202026.gpx",
+   "km": 89.93,
+   "bytes": 314520,
+   "sha256": "4f825400d431448941ce0931591c68c6210a55316a5a2eefcb63dd9ee9efb466",
+   "source": "https://www.ironman.com/races/im703-croatia/course",
+   "checked": "2026-10-11"
+  },
+  "460f385504ec": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Salalah%20Bike%20gpx.gpx",
+   "km": 89.27,
+   "bytes": 829959,
+   "sha256": "48b979517570671110f33d2ed461f2dc6ce3dd8cd80e7a395a5964a614b0cd3e",
+   "source": "https://www.ironman.com/races/im703-dhofar/course",
+   "checked": "2026-10-11"
+  },
+  "6b563ea54b0b": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-09/Gpx-Bike.gpx",
+   "km": 88.31,
+   "bytes": 46139,
+   "sha256": "3c9fe6b4520c096c42467cd7005882aad55794a5deef4cbcf9f7676112b52697",
+   "source": "https://www.ironman.com/races/im703-agadir/course",
+   "checked": "2026-10-11"
+  },
+  "9c6492a73388": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-07/bike_0.gpx",
+   "km": 90.04,
+   "bytes": 328128,
+   "sha256": "bfb9fd1483c638ed69c7b585af64ed2bb2f7ed781c771b466521a6a3425d698b",
+   "source": "https://www.ironman.com/races/im703-greece/course",
+   "checked": "2026-10-11"
+  },
+  "336a4858ebeb": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Turkey%20T%C3%BCrkiye%20Bike%20gpx%202023.gpx",
+   "km": 89.98,
+   "bytes": 153832,
+   "sha256": "158581e242abf2dc75c10ae845780cac8a59f05fa0f31b20ed68417b096a8486",
+   "source": "https://www.ironman.com/races/im703-turkey/course",
+   "checked": "2026-10-11"
+  },
+  "d96f703142ca": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-07/imom26_bike-24633199-1784543734-724.gpx",
+   "km": 179.99,
+   "bytes": 81409,
+   "sha256": "75c990b0115095630cd6b0e7ab73de0e31a92ee6d65405f1103b76dbb696e69e",
+   "source": "https://www.ironman.com/races/im-oman/course",
+   "checked": "2026-10-11"
+  },
+  "5d61f573f7d8": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Oman%20Bike%20gpx.gpx",
+   "km": 89.76,
+   "bytes": 243449,
+   "sha256": "5088421d68ad13e5d58573c2683208e7beb82220877cd533f2e71777a770afa3",
+   "source": "https://www.ironman.com/races/im703-oman/course",
+   "checked": "2026-10-11"
+  },
+  "f05a4f944e5e": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/IM703_Laoag_2026_Bike_Course.gpx",
+   "km": 90.26,
+   "bytes": 48606,
+   "sha256": "8b12d1a4feab8dcaacda48962c8e7a9bf28895dd562044b80b2da93083d670b0",
+   "source": "https://www.ironman.com/races/im703-laoag/course",
+   "checked": "2026-10-11"
+  },
+  "846ad8a9dfa8": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-06/ironman_703_qatar_bike_course-23998729-1782129911-77%20%281%29.gpx",
+   "km": 90.79,
+   "bytes": 43715,
+   "sha256": "4ba8c4c7fd714a679056e951da2878eb3756a6285cd2026aa4b5b7b56255c6b9",
+   "source": "https://www.ironman.com/races/im703-doha/course",
+   "checked": "2026-10-11"
+  },
+  "2f858703da81": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-07/IRONMAN%2070.3%20Vilamoura%20Algarve%20Zoot%20Bike%20Course.gpx",
+   "km": 90.04,
+   "bytes": 168629,
+   "sha256": "dc526e1bbc6880a73710135719dcef9d632059ada2898ffbda6a7938ca615876",
+   "source": "https://www.ironman.com/races/im703-vilamoura-algarve/course",
+   "checked": "2026-10-11"
+  },
+  "59ae59f48d04": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-04/70.3%20Valencia%202026%20bike%20course%20-%20V21.gpx",
+   "km": 89.23,
+   "bytes": 54568,
+   "sha256": "3a7daf1e3fe6d98583e8336dcbd593a4a4b5279d91a543e7b2acfa4638dd2245",
+   "source": "https://www.ironman.com/races/im703-valencia/course",
+   "checked": "2026-10-11"
+  },
+  "29823588ac35": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-03/jesolo_703_bike_route_2026-23298194-1773655612-827%20%281%29.gpx",
+   "km": 89.78,
+   "bytes": 74459,
+   "sha256": "c8950f8c77c03e9716f21fd54125e4c55e9a5747d3a36d299868d6b889f8be93",
+   "source": "https://www.ironman.com/races/im703-venice-jesolo/course",
+   "checked": "2026-10-11"
+  },
+  "b7231460c9f5": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-04/IM%2070.3%20MALLORCA%20BIKE.gpx",
+   "km": 90.14,
+   "bytes": 173165,
+   "sha256": "c29b1c69cd4618aa1777b1a0fa8963773d07d97b3019b1c659de72f7e83e6397",
+   "source": "https://www.ironman.com/races/im703-mallorca/course",
+   "checked": "2026-10-11"
+  },
+  "7bb0431120c8": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-03/Radstrecke%205150Kra2026_0.gpx",
+   "km": 38.88,
+   "bytes": 57806,
+   "sha256": "f39184ac77fbbc8fff8d7609b57dc13ade69fece74b16e85a153fe481472d2f3",
+   "source": "https://www.ironman.com/races/5150-kraichgau/course",
+   "checked": "2026-10-11"
+  },
+  "0efd8889b472": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-04/IMPA2026_map_bike.gpx",
+   "km": 86.79,
+   "bytes": 178342,
+   "sha256": "8396923c44e62081a1952d084ce18ab8557d86545d0f0fbff5016b8aeb0d6ef9",
+   "source": "https://www.ironman.com/races/im703-aix-en-provence/course",
+   "checked": "2026-10-11"
+  },
+  "956cdb9ba6e7": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-03/Radstrecke%20IM703Kra2026.gpx",
+   "km": 88.48,
+   "bytes": 350168,
+   "sha256": "16d5c2181e6860b7d4a7093fe24b9b0a4ba9686e542c7c802699f9f87786aecf",
+   "source": "https://www.ironman.com/races/im703-kraichgau/course",
+   "checked": "2026-10-11"
+  },
+  "f9f427abd169": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-05/BIKE%20piano%20C-2.gpx",
+   "km": 90.08,
+   "bytes": 66513,
+   "sha256": "1426b238a6fbfa9d266a771babc28ba769088aa8f6a5f3bf7853c756ca33714d",
+   "source": "https://www.ironman.com/races/im703-alghero/course",
+   "checked": "2026-10-11"
+  },
+  "b3b9c706e639": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Bolton%20bike%20gpx%202024.gpx",
+   "km": 89.57,
+   "bytes": 436140,
+   "sha256": "704005a4c8e7b4a9565fc4bbef90a81dc8a74a42166aafae54000f8dcce5346d",
+   "source": "https://www.ironman.com/races/im703-bolton/course",
+   "checked": "2026-10-11"
+  },
+  "26b7b7dad15c": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-03/IRONMAN%2070.3%20Switzerland%20Bike%20Course%202025%20start%20to%20finish.gpx",
+   "km": 85.08,
+   "bytes": 183501,
+   "sha256": "a0aade88e3a24169759dd06533f3803d0aae34bbdfb3d35db5a3377312658e22",
+   "source": "https://www.ironman.com/races/im703-switzerland/course",
+   "checked": "2026-10-11"
+  },
+  "776c416697bc": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-03/imto2025_bike.gpx",
+   "km": 87.36,
+   "bytes": 171503,
+   "sha256": "69a36e16de539fba544db8376356cb83a16e77f32017e03d04a7fa973bcaf43f",
+   "source": "https://www.ironman.com/races/im703-tours/course",
+   "checked": "2026-10-11"
+  },
+  "d340cfe6bc10": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-04/IMHH26_Bike_v0.2_2Runden.gpx",
+   "km": 177.05,
+   "bytes": 234781,
+   "sha256": "225aac4075102b37185c0d648aaea9e61262d1576bf4964f8e0ae227dcbeda9b",
+   "source": "https://www.ironman.com/races/im-hamburg/course",
+   "checked": "2026-10-11"
+  },
+  "a3fd5ec881d6": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-09/IM_703_Davao_2027_Bike_Course_GPX.gpx",
+   "km": 90.17,
+   "bytes": 43629,
+   "sha256": "790853ba7ca27f93e01abc7e9caf4284e2445678a969b4d1ebf0a42070151468",
+   "source": "https://www.ironman.com/races/im703-davao-philippines/course",
+   "checked": "2026-10-11"
+  },
+  "d8b631730f2f": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-04/Rockford_Bike_2026_V1.gpx",
+   "km": 90.53,
+   "bytes": 206239,
+   "sha256": "7d7dd6270b50b26ac2cd2f4ae1ba1a888a1946a0275b17d93b29c568d16b2101",
+   "source": "https://www.ironman.com/races/im703-rockford-illinois/course",
+   "checked": "2026-10-11"
+  },
+  "dca75a34c592": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IMAustria_Bike_gpx.gpx",
+   "km": 180.12,
+   "bytes": 339860,
+   "sha256": "26ad0925e298f7b4dd29e2b7d1b3914f10117a743253e3961d5c887b17961f75",
+   "source": "https://www.ironman.com/races/im-austria/course",
+   "checked": "2026-10-11"
+  },
+  "2dbe01ac133f": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/IMPH_Davao_Bike_Course.gpx",
+   "km": 180.75,
+   "bytes": 86223,
+   "sha256": "0a8c87b1e1f2a35c98aee0f23f715a4cc47b838a4d15304fc25d7e90f89bba9b",
+   "source": "https://www.ironman.com/races/im-philippines/course",
+   "checked": "2026-10-11"
+  },
+  "b993b376172a": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-06/IMWFL26_course_bike703.gpx",
+   "km": 91.31,
+   "bytes": 719835,
+   "sha256": "acc1d1bb240f841993a1a41b8d8cc513c0c1fbb75bc7fb17ce1efdb96a0b5c5a",
+   "source": "https://www.ironman.com/races/im703-westfriesland/course",
+   "checked": "2026-10-11"
+  },
+  "11a5c641d3a9": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-04/2026_IRONMAN_70.3_Elsinore_-_bike_course.gpx",
+   "km": 89.96,
+   "bytes": 253690,
+   "sha256": "4de864f0725b4ca41cbe82be45abb6e545aa8ce029a5ecd96215bea40056f8b3",
+   "source": "https://www.ironman.com/races/im703-elsinore/course",
+   "checked": "2026-10-11"
+  },
+  "f2f34fe2e4c6": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-02/imso2025_vf-20284876-1738938930-545.gpx",
+   "km": 177.9,
+   "bytes": 437534,
+   "sha256": "9b04c015fb3948147022cc08eef0393d6cd0954b4c2fe991eb717cb69226d74c",
+   "source": "https://www.ironman.com/races/im-les-sables-dolonne/course",
+   "checked": "2026-10-11"
+  },
+  "4e1dc7558513": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-03/IRONMAN%20Switzerland%20Thun%20-%20Bike%20Course%20180.gpx",
+   "km": 180.18,
+   "bytes": 891297,
+   "sha256": "9605aeab0ecd609e9f11b4a4eff208e1b2b9d53d317d9ff087cfa49256ed392c",
+   "source": "https://www.ironman.com/races/im-switzerland/course",
+   "checked": "2026-10-11"
+  },
+  "3dd6bac9f383": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20J%C3%B6nk%C3%B6ping%20Bike%20gpx%202023.gpx",
+   "km": 90.01,
+   "bytes": 392448,
+   "sha256": "239f33612d888d2fa86c6fa4d70c2e92109489849d627652bcc2b1fc4d28f580",
+   "source": "https://www.ironman.com/races/im703-jonkoping/course",
+   "checked": "2026-10-11"
+  },
+  "e11f161d4205": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-05/02_Radstrecke%20IM%2070.3%20Luxembourg%202026%20%281%29.gpx",
+   "km": 90.67,
+   "bytes": 136044,
+   "sha256": "b7e974a1c7c3e01876cbf4488f42083f91decac5e93b943aec7daf77d1b72158",
+   "source": "https://www.ironman.com/races/im703-luxembourg/course",
+   "checked": "2026-10-11"
+  },
+  "921b873e0a22": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-03/IMSWA_Bike_2025.gpx",
+   "km": 90.09,
+   "bytes": 494138,
+   "sha256": "94883f322a2f1382422fcab6fac1c17d04d5f261f71469a43f5a31b55504afe1",
+   "source": "https://www.ironman.com/races/im703-swansea/course",
+   "checked": "2026-10-11"
+  },
+  "3d0eb852d3f2": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-06/IRONMAN%2070.3%20Vitoria-Gasteiz%20-%20ZOOT%20Bike%20Course.gpx",
+   "km": 90.03,
+   "bytes": 146365,
+   "sha256": "0f5385c73fb069450386a7782d331b40c44a2d033e671aba258d9627f717cb72",
+   "source": "https://www.ironman.com/races/im703-vitoria/course",
+   "checked": "2026-10-11"
+  },
+  "1daa11faf209": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-06/IRONMAN%20Vitoria-Gasteiz%20-%20ZOOT%20Bike%20Course.gpx",
+   "km": 179.98,
+   "bytes": 271013,
+   "sha256": "cadcf479a11a3fcc337f21a16104d30b46970b7b8c13bc2c843e990fc2d6c491",
+   "source": "https://www.ironman.com/races/im-vitoria/course",
+   "checked": "2026-10-11"
+  },
+  "7fec6264048c": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-07/Tallinn%20IM%202026.gpx",
+   "km": 179.3,
+   "bytes": 275246,
+   "sha256": "4dce77244d1b89a01bc49b26e1211e6c75d3b4b108440fc0fdd958694faa0051",
+   "source": "https://www.ironman.com/races/im-tallinn/course",
+   "checked": "2026-10-11"
+  },
+  "63eed227fa90": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-05/Bike%20Course_B2_IM703Leipzig2026_1Loop.gpx",
+   "km": 87.17,
+   "bytes": 125297,
+   "sha256": "5e6dbddc28b7ba369557798c4198d98a10dc91ba99382b2e927589691048f9ed",
+   "source": "https://www.ironman.com/races/im703-leipzig/course",
+   "checked": "2026-10-11"
+  },
+  "688c105ac749": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-07/IM%2070.3%20Tallinn%202026.gpx",
+   "km": 89.53,
+   "bytes": 141631,
+   "sha256": "fd4472971ceca12fa6e445af828876cde593b44cd27fc5f37f24207651edbb29",
+   "source": "https://www.ironman.com/races/im703-tallinn/course",
+   "checked": "2026-10-11"
+  },
+  "1e65507eb431": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-05/IMLEE_BIKE_2026_FINAL.gpx",
+   "km": 178.2,
+   "bytes": 733269,
+   "sha256": "a21afc3095f844a514438ec9ca59eb3192a055fed4a765f05d71c6f7308d6867",
+   "source": "https://www.ironman.com/races/im-leeds/course",
+   "checked": "2026-10-11"
+  },
+  "d0446115afde": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/IRONMAN_Kalmar_2026_Bike_course%20%281%29.gpx",
+   "km": 179.59,
+   "bytes": 600469,
+   "sha256": "423a69b4bda881b2837580e948569a7516640aa092276ef607728298f77c6445",
+   "source": "https://www.ironman.com/races/im-kalmar/course",
+   "checked": "2026-10-11"
+  },
+  "d808773f4e6a": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/VF_imvi2026_703_bike-23190099-1786960792-479.gpx",
+   "km": 90.4,
+   "bytes": 205967,
+   "sha256": "2bc808b7d73881940c2e2682e15854e9aa69fb4daab691d2eb0a570fbb168dc8",
+   "source": "https://www.ironman.com/races/im703-vichy/course",
+   "checked": "2026-10-11"
+  },
+  "17f9139e054a": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-05/2025_IRONMAN_Copenhagen_-_Bike_course_FINAL.gpx",
+   "km": 176.72,
+   "bytes": 347690,
+   "sha256": "c63666e7b815c36e33336ad5c3eacea4dbf2fc3d0c7dda3015d52bc634d1cec9",
+   "source": "https://www.ironman.com/races/im-copenhagen/course",
+   "checked": "2026-10-11"
+  },
+  "625665682dbe": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/VF_imvi2026_ironman_bike-22997238-1786960996-205.gpx",
+   "km": 180.58,
+   "bytes": 306636,
+   "sha256": "7f9bd9bb180304a8bd9455bb33832620627169b22f3ac5d4743af9f311aa8b28",
+   "source": "https://www.ironman.com/races/im-vichy/course",
+   "checked": "2026-10-11"
+  },
+  "fded5de4e53a": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-07/IMDUI26_BikeCourse_2Laps.gpx",
+   "km": 88.23,
+   "bytes": 136838,
+   "sha256": "560994211dfece56d78844f826b2dc30e3fd794adb1708ae27ac7b121bfcf393",
+   "source": "https://www.ironman.com/races/im703-duisburg/course",
+   "checked": "2026-10-11"
+  },
+  "9439e08ebff8": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/IRONMAN%2070.3%20Zell%20am%20See-Kaprun%20-%20ZOOT%20Bike%20Course%20%281%29%20%281%29.gpx",
+   "km": 89.39,
+   "bytes": 179222,
+   "sha256": "017c07a273cbd305bb77da609b3cfd73fe02e3009094f02dfab993e01b8c0db1",
+   "source": "https://www.ironman.com/races/im703-zell-am-see/course",
+   "checked": "2026-10-11"
+  },
+  "b861f9b3be13": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/5150%20Erkner%20Bike%202026.gpx",
+   "km": 40.12,
+   "bytes": 65416,
+   "sha256": "29d812c26f45bfcb2fd38f553686dcb75fbbefc13c2901aba501f6b32ff4d61b",
+   "source": "https://www.ironman.com/races/5150-erkner/course",
+   "checked": "2026-10-11"
+  },
+  "7660017545dc": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2026-08/70.3%20Erkner%20Bike%202026.gpx",
+   "km": 88.13,
+   "bytes": 117513,
+   "sha256": "314f2f46d69589da6594a7ba3c7ed3aff34f78a7e726fdf8dc3553cf48575ab3",
+   "source": "https://www.ironman.com/races/im703-erkner/course",
+   "checked": "2026-10-11"
+  },
+  "013797f10cd8": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Nice_Bike%20gpx.gpx",
+   "km": 91.58,
+   "bytes": 234796,
+   "sha256": "635f3bbb66735f2d743532bd14409173b97777d29ef67ee9511bf79639bbd393",
+   "source": "https://www.ironman.com/races/im703-nice/course",
+   "checked": "2026-10-11"
+  },
+  "68a56dd56901": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-05/IRONMAN%2070.3%20Weymouth%20-%20ZOOT%20Bike%20Course.gpx",
+   "km": 90.9,
+   "bytes": 148573,
+   "sha256": "972356b7593b7d1c376d8f83bb265d9ffb243b3eb6646d041d5b19c0f327eab4",
+   "source": "https://www.ironman.com/races/im703-weymouth/course",
+   "checked": "2026-10-11"
+  },
+  "6dc57f225c34": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%20France%20Nice%20Bike%20gpx.gpx",
+   "km": 170.71,
+   "bytes": 424999,
+   "sha256": "da9e40cdbb1136e858e718ee51355eac7a301be34681ba8f206963a969c9bf44",
+   "source": "https://www.ironman.com/races/im-france/course",
+   "checked": "2026-10-11"
+  },
+  "e705994a3c75": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%20Emilia-Romagna%20Bike%20gpx%202023.gpx",
+   "km": 180.02,
+   "bytes": 151045,
+   "sha256": "94ae5f4d0f658934be0c3bcc8440a4be96a20bfea904162e36be376e50e9dd71",
+   "source": "https://www.ironman.com/races/im-emilia-romagna/course",
+   "checked": "2026-10-11"
+  },
+  "a90173419f3d": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2024-10/IM%2070.3%20Emilia-Romagna%20bike%20gpx%202023.gpx",
+   "km": 89.54,
+   "bytes": 88026,
+   "sha256": "947a83d2ce0c021c482f9b72389a7e2eaf77445ecc637a9fdbd61abf516f09c8",
+   "source": "https://www.ironman.com/races/im703-emilia-romagna/course",
+   "checked": "2026-10-11"
+  },
+  "2df8eec1b8e0": {
+   "kind": "official",
+   "url": "https://www.ironman.com/sites/default/files/2025-03/IMWA_Bike_2025.gpx",
+   "km": 178.33,
+   "bytes": 205122,
+   "sha256": "ce72b91138abb60a23e30061eba652a540474bc82cd7b490d7aa6a629ef14b5a",
+   "source": "https://www.ironman.com/races/im-wales/course",
+   "checked": "2026-10-11"
   }
  }
 }
