@@ -1,0 +1,17 @@
+{
+ "version": 1,
+ "updated": "2026-10-10",
+ "courses": {
+  "318833fb955f": {
+   "kind": "interpreted",
+   "url": "courses/318833fb955f.gpx",
+   "km": 4.97,
+   "bytes": 5756,
+   "sha256": "a42485093c8ac69269e00c31cd6fba111d02622ed178e84e5c3e800ec8ef59b2",
+   "source": "https://www.triathloncharlevoix.org/disciplines-et-categories",
+   "method": "assisted trace on the organiser's map",
+   "checked": "2026-10-10",
+   "shape": "out-and-back, one way drawn"
+  }
+ }
+}
