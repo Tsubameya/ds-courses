@@ -31,3 +31,12 @@ même FC, sans aucune perte de signal.
   l'objet du module `trainer-capture`.
 - La pente peut se recalculer à partir de la puissance et de la vitesse : testé sur le FIT MyWhoosh avec sa vitesse
   virtuelle, écart moyen de 0,1 à 0,4 point de pente, corrélation 0,99. Reste à vérifier avec la vitesse du Neo.
+
+## Caractérisation
+
+- Sous le titre principal, un sélecteur à trois positions : **Toutes · Extérieur · Indoor**, plutôt qu'un simple
+  « inclure les sessions indoor ». Une position supplémentaire suffit pour comparer directement les deux.
+- Par défaut : Toutes. Le choix est mémorisé.
+- En comparaison, superposer les courbes (puissance-durée, CP, W′) extérieur et indoor.
+- Afficher la source de puissance de chaque série : si l'indoor vient du home-trainer et l'extérieur d'un capteur
+  sur le vélo, une partie de l'écart vient des capteurs, pas du cycliste.
