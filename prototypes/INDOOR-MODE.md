@@ -40,3 +40,12 @@ même FC, sans aucune perte de signal.
 - En comparaison, superposer les courbes (puissance-durée, CP, W′) extérieur et indoor.
 - Afficher la source de puissance de chaque série : si l'indoor vient du home-trainer et l'extérieur d'un capteur
   sur le vélo, une partie de l'écart vient des capteurs, pas du cycliste.
+
+## Affichage en séance (toutes sessions)
+
+- Couleur du pourcentage de réserve (W′bal) : normal au-dessus de 50 %, **jaune** à 50 % et moins, **orange** à
+  35 % et moins, **magenta** à 15 % et moins.
+- Hystérésis de 2 points en remontant (on ne repasse de jaune à normal qu'à 52 %), pour éviter que la couleur
+  clignote quand la réserve oscille autour d'un seuil.
+- La couleur ne doit pas être le seul signal : changer aussi un second indice (graisse du chiffre, pastille ou
+  jauge) pour rester lisible en cas de daltonisme et d'un coup d'œil en plein effort.
