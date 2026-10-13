@@ -22,13 +22,17 @@ même FC, sans aucune perte de signal.
   distance ni de vitesse fantômes (0,73 km et 12 km/h de pointe relevés lors de l'essai, téléphone immobile).
 - Pas de météo ni d'analyse du vent.
 - FIT exporté en `sub_sport` `indoor_cycling` (ou `virtual_activity`).
-- Auto-pause fondée sur la puissance et la cadence (0 W et 0 rpm pendant plus de 5 s), jamais sur la vitesse GPS.
+- Auto-pause : jamais sur la vitesse GPS, et **pas non plus sur 0 W / 0 rpm**. En descente, le Neo entraîne
+  lui-même son volant (roue libre simulée) : on peut ne pas pédaler pendant une longue descente sans être arrêté.
+  Si la vitesse du Neo est disponible, pause quand elle tombe à 0 ; sinon, pas d'auto-pause en indoor.
 - Départ : bouton Flic 2 pour commencer ; ensuite, démarrage automatique au-dessus d'un seuil de puissance.
 
 ## Vitesse et pente
 
-- La vitesse n'est pas dans la mesure de puissance (`2A63`). À chercher dans FTMS `2AD2` ou FE-C page 16 : c'est
-  l'objet du module `trainer-capture`.
+- La vitesse n'est pas dans la mesure de puissance (`2A63`). À chercher dans FTMS `2AD2` ou FE-C page 16. Test le
+  plus simple : l'app nRF Connect sur l'iPhone, à la place de DS, pendant une séance MyWhoosh en ANT+.
+- En descente, le Neo continue de faire tourner son volant : sa vitesse suit la simulation même à 0 W. C'est une
+  bonne nouvelle pour la distance, et l'estimation de pente doit accepter P = 0 avec v > 0 (force motrice nulle).
 - La pente peut se recalculer à partir de la puissance et de la vitesse : testé sur le FIT MyWhoosh avec sa vitesse
   virtuelle, écart moyen de 0,1 à 0,4 point de pente, corrélation 0,99. Reste à vérifier avec la vitesse du Neo.
 
