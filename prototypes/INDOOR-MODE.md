@@ -21,6 +21,10 @@ même FC, sans aucune perte de signal.
   2. la ceinture cardio seule, si elle accepte deux connexions ;
   3. plus tard, l'import de la sortie après coup (FIT, Strava).
   L'aide doit le dire en une phrase plutôt que laisser l'utilisateur chercher pourquoi DS ne trouve pas le Neo.
+- À faire plus tard : une table de compatibilité des home-trainers, d'après leurs fiches techniques et des essais
+  (nombre de connexions Bluetooth simultanées, FTMS, FE-C sur Bluetooth, vitesse publiée, ANT+ FE-C). L'avertissement
+  peut alors devenir précis : affiché seulement pour les modèles concernés, au moment où DS ne parvient pas à s'y
+  connecter pendant une séance indoor.
 
 ## Enregistrement
 
