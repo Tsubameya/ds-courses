@@ -14,6 +14,13 @@ même FC, sans aucune perte de signal.
   part, quand DS est seul connecté.
 - À dire dans l'aide : « dans votre app indoor, connectez le home-trainer en ANT+ ». Cas non couvert : pas de
   clé ANT+ sur l'ordinateur, ou app indoor sur tablette en Bluetooth seulement.
+- Compromis assumé : un home-trainer qui n'accepte **qu'une** connexion Bluetooth (le Tacx Neo de première
+  génération, plus de dix ans) ne peut pas servir à la fois l'app indoor en Bluetooth et DS. Sans clé ANT+ côté app
+  indoor, DS ne lira pas le home-trainer. Échappatoires, dans l'ordre :
+  1. un capteur de puissance sur le vélo (pédales, manivelle) connecté à DS, le home-trainer restant à l'app indoor ;
+  2. la ceinture cardio seule, si elle accepte deux connexions ;
+  3. plus tard, l'import de la sortie après coup (FIT, Strava).
+  L'aide doit le dire en une phrase plutôt que laisser l'utilisateur chercher pourquoi DS ne trouve pas le Neo.
 
 ## Enregistrement
 
