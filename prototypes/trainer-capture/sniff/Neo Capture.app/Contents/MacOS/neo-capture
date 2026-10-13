@@ -1,0 +1,7 @@
+#!/bin/bash
+# Lanceur de neo_capture.py, à garder dans le Dock. Ouvre le Terminal (la capture s'arrête avec
+# Ctrl+C, il faut une fenêtre), installe bleak la première fois, garde le Mac éveillé pendant la
+# capture (caffeinate), puis ouvre le dossier qui contient le CSV.
+SNIFF="$(cd "$(dirname "$0")/../../.." && pwd)"
+CMD="cd '$SNIFF' && { clear; true; } && { [ -x .venv/bin/python3 ] || { echo 'Première utilisation : installation (une minute)…'; python3 -m venv .venv && .venv/bin/pip install -q bleak; }; } && caffeinate -di .venv/bin/python3 neo_capture.py; open '$SNIFF'; echo; echo 'Tu peux fermer cette fenêtre.'"
+osascript -e 'tell application "Terminal" to activate' -e "tell application \"Terminal\" to do script \"$CMD\""

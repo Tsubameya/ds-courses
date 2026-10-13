@@ -3,7 +3,16 @@
 Enregistre, pendant une séance MyWhoosh en ANT+, tout ce que le home-trainer publie en Bluetooth. Ne donne aucune
 consigne au home-trainer.
 
-## Une seule fois : l'installation
+## Le plus simple : l'app Neo Capture
+
+Dans le Finder, ouvrir ce dossier `sniff` et **glisser `Neo Capture` dans le Dock** (la laisser ici : le Dock garde
+un lien vers elle). Un clic ouvre le Terminal et lance la capture ; la première fois, elle installe ce qu'il faut
+(une minute). Le Mac reste éveillé pendant la capture, et le dossier du CSV s'ouvre à la fin.
+
+Au premier lancement, macOS demande d'autoriser Neo Capture à piloter le Terminal, puis le Terminal à utiliser le
+Bluetooth : accepter les deux.
+
+## À la main : l'installation, une seule fois
 
 Dans le Terminal, depuis le dossier `ds-courses` :
 
@@ -15,7 +24,7 @@ source .venv/bin/activate
 pip install bleak
 ```
 
-## À chaque séance
+## À chaque séance (sans l'app)
 
 1. **DS déconnecté du Neo** (fermer l'app, ou « Disconnect » dans Sensors) : le Neo n'accepte qu'une connexion
    Bluetooth.
