@@ -149,6 +149,15 @@ def main():
         asyncio.run(run(args))
     except KeyboardInterrupt:
         pass
+    except Exception as e:
+        if "not authorized" in str(e).lower() or "unauthorized" in str(e).lower():
+            sys.exit("\nLe Terminal n'a pas le droit d'utiliser le Bluetooth.\n"
+                     "Réglages Système › Confidentialité et sécurité › Bluetooth : activer Terminal\n"
+                     "(bouton + si absent, dans Applications › Utilitaires), puis quitter le Terminal (⌘Q)\n"
+                     "et relancer Neo Capture.")
+        if "powered off" in str(e).lower() or "turned off" in str(e).lower():
+            sys.exit("\nLe Bluetooth du Mac est éteint : l'allumer, puis relancer Neo Capture.")
+        raise
     print("\nArrêté. Fichier enregistré à côté du programme (capture-….csv).")
 
 
