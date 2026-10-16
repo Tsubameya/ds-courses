@@ -21,7 +21,8 @@ git pull
 cd prototypes/trainer-capture/sniff
 python3 -m venv .venv
 source .venv/bin/activate
-pip install bleak
+python3 -m pip install --upgrade pip
+python3 -m pip install bleak
 ```
 
 ## À chaque séance (sans l'app)
