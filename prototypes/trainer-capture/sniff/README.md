@@ -9,8 +9,10 @@ Dans le Finder, ouvrir ce dossier `sniff` et **glisser `Neo Capture` dans le Doc
 un lien vers elle). Un clic ouvre le Terminal et lance la capture ; la première fois, elle installe ce qu'il faut
 (une minute). Le Mac reste éveillé pendant la capture, et le dossier du CSV s'ouvre à la fin.
 
-Au premier lancement, macOS demande d'autoriser Neo Capture à piloter le Terminal, puis le Terminal à utiliser le
-Bluetooth : accepter les deux.
+Au premier lancement, macOS demande d'autoriser le Terminal à utiliser le Bluetooth : accepter.
+
+L'app ne fait qu'ouvrir `neo-capture.command` dans le Terminal ; ce fichier se lance aussi d'un double-clic dans le
+Finder, ou depuis la partie droite du Dock (près de la corbeille) si l'app pose problème.
 
 ## À la main : l'installation, une seule fois
 

@@ -1,9 +1,5 @@
 #!/bin/bash
-# Lanceur de neo_capture.py, à garder dans le Dock. Ouvre le Terminal (la capture s'arrête avec
-# Ctrl+C, il faut une fenêtre), installe bleak si elle manque, puis ouvre le dossier qui contient
-# le CSV. Le Mac est gardé éveillé par neo_capture.py lui-même (voir main()).
-# ★ On teste que bleak S'IMPORTE, pas que .venv existe : une première installation interrompue
-#   laissait un .venv vide, et le lanceur ne la retentait plus jamais.
+# Lanceur de la capture, à garder dans le Dock : demande au Terminal d'ouvrir neo-capture.command,
+# comme un double-clic dans le Finder (voir l'en-tête de ce fichier pour la raison).
 SNIFF="$(cd "$(dirname "$0")/../../.." && pwd)"
-CMD="cd '$SNIFF' && { clear; true; } && { .venv/bin/python3 -c 'import bleak' 2>/dev/null || { echo 'Installation de bleak (une minute)…'; rm -rf .venv && python3 -m venv .venv && .venv/bin/python3 -m pip install --upgrade pip && .venv/bin/python3 -m pip install bleak && .venv/bin/python3 -c 'import bleak' && echo 'Installation réussie.'; }; } && .venv/bin/python3 neo_capture.py; open '$SNIFF'; echo; echo 'Tu peux fermer cette fenêtre.'"
-osascript -e 'tell application "Terminal" to activate' -e "tell application \"Terminal\" to do script \"$CMD\""
+open -a Terminal "$SNIFF/neo-capture.command"
