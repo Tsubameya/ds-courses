@@ -19,7 +19,9 @@ import argparse
 import asyncio
 import csv
 import datetime as dt
+import os
 import pathlib
+import subprocess
 import sys
 
 from bleak import BleakClient, BleakScanner
@@ -145,6 +147,14 @@ def main():
     p.add_argument("--list", action="store_true", help="lister les appareils à portée et s'arrêter")
     p.add_argument("--timeout", type=float, default=10, help="durée de la recherche, en secondes")
     args = p.parse_args()
+    # Le Mac reste éveillé tant que ce programme tourne. caffeinate est lancé À CÔTÉ, pas devant :
+    # lancé par `caffeinate python…`, le programme voyait macOS lui refuser le Bluetooth, même
+    # avec le Terminal autorisé — la demande était imputée à caffeinate.
+    if sys.platform == "darwin" and not args.list:
+        try:
+            subprocess.Popen(["caffeinate", "-di", "-w", str(os.getpid())])
+        except OSError:
+            pass
     try:
         asyncio.run(run(args))
     except KeyboardInterrupt:
