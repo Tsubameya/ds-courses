@@ -14,6 +14,10 @@ Au premier lancement, macOS demande d'autoriser le Terminal à utiliser le Bluet
 L'app ne fait qu'ouvrir `neo-capture.command` dans le Terminal ; ce fichier se lance aussi d'un double-clic dans le
 Finder, ou depuis la partie droite du Dock (près de la corbeille) si l'app pose problème.
 
+Au lancement, la fenêtre demande s'il faut aussi interroger le Neo sur la pente (page 71 FE-C) : répondre `o`
+pour l'obtenir. C'est une simple demande d'information toutes les 5 s, pas une consigne de résistance ; chaque
+demande est notée dans le CSV (`->6E40FEC3`). À la main : `python3 neo_capture.py --fec-status`.
+
 ## À la main : l'installation, une seule fois
 
 Dans le Terminal, depuis le dossier `ds-courses` :

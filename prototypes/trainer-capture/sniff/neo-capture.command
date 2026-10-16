@@ -13,7 +13,14 @@ if ! .venv/bin/python3 -c 'import bleak' 2>/dev/null; then
     && .venv/bin/python3 -c 'import bleak' && echo "Installation réussie." \
     || { echo "Échec de l'installation : copie ce qui précède à Claude."; exit 1; }
 fi
-.venv/bin/python3 neo_capture.py
+echo
+echo "Demander aussi au Neo la pente qu'il reçoit de MyWhoosh (page 71 FE-C, toutes les 5 s) ?"
+echo "C'est une demande d'information, pas une consigne de résistance."
+read -r -p "Réponds o (oui) ou n (non), puis Entrée : " ASK
+case "$ASK" in
+  [oOyY]*) .venv/bin/python3 neo_capture.py --fec-status ;;
+  *)       .venv/bin/python3 neo_capture.py ;;
+esac
 open .
 echo
 echo "Tu peux fermer cette fenêtre."
