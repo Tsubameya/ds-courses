@@ -40,12 +40,27 @@ même FC, sans aucune perte de signal.
 
 ## Vitesse et pente
 
-- La vitesse n'est pas dans la mesure de puissance (`2A63`). À chercher dans FTMS `2AD2` ou FE-C page 16. Test le
-  plus simple : l'app nRF Connect sur l'iPhone, à la place de DS, pendant une séance MyWhoosh en ANT+.
-- En descente, le Neo continue de faire tourner son volant : sa vitesse suit la simulation même à 0 W. C'est une
-  bonne nouvelle pour la distance, et l'estimation de pente doit accepter P = 0 avec v > 0 (force motrice nulle).
-- La pente peut se recalculer à partir de la puissance et de la vitesse : testé sur le FIT MyWhoosh avec sa vitesse
-  virtuelle, écart moyen de 0,1 à 0,4 point de pente, corrélation 0,99. Reste à vérifier avec la vitesse du Neo.
+Mesuré le 2026-10-16 (Tacx Neo 10423, MyWhoosh « Montréal » en ANT+ FE-C, 26 min, 245 m D+), en écoutant le Neo en
+Bluetooth depuis le Mac (`trainer-capture/sniff`).
+
+- **Ce Neo n'expose pas FTMS** (`1826`). Il publie : Cycling Power (`2A63`, et `2A64` vecteur de pédalage), CSC
+  (`2A5B`, tours de roue virtuels) et le canal FE-C de Tacx (`6E40FEC1…`, pages 16, 25, 71…).
+- **Puissance** : identique à MyWhoosh (écart moyen 4 W par seconde).
+- **Vitesse** : disponible (FE-C page 16, ou CSC avec ~2,39 m par tour), mais c'est **la vitesse propre du Neo**, pas la
+  vitesse virtuelle de MyWhoosh : 27,5 km/h de moyenne contre 31,2, corrélation 0,91, et nettement plus basse en roue
+  libre dans les descentes. La distance qu'on en tirerait serait ~12 % plus courte que celle de MyWhoosh.
+- **Pente** : le Neo ne connaît que **la consigne** que MyWhoosh lui envoie, pas la pente de la route. Lue en page 71
+  (en la demandant, page 70, sur `6E40FEC3`) : corrélation 0,98 avec le profil, mais **≈ 0,55 × la pente réelle en
+  montée** (réglage de difficulté de MyWhoosh) et **plafonnée à −2 % en descente**. Elle dit ce que les jambes ont
+  senti, pas ce que la route faisait.
+- La pente et l'altitude réelles n'existent que dans MyWhoosh : on ne les aura qu'avec son FIT, après coup.
+- Lire la page 71 impose d'**écrire** une demande au Neo : ce n'est pas une consigne de résistance, mais cela déroge
+  au principe « DS écoute seulement ». À décider avant de l'utiliser dans l'app.
+
+**Conséquence pour la v1** : puissance, cadence, FC et durée en direct (validés deux fois) ; la vitesse du Neo peut
+servir à l'auto-pause (vitesse nulle) mais ne doit pas être présentée comme la vitesse ou la distance de la sortie ;
+pas de pente affichée. La distance, la vitesse et le dénivelé « officiels » viendront plus tard de l'import du FIT de
+l'app indoor.
 
 ## Caractérisation
 
