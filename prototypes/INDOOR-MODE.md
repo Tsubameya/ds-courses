@@ -50,9 +50,10 @@ Bluetooth depuis le Mac (`trainer-capture/sniff`).
   vitesse virtuelle de MyWhoosh : 27,5 km/h de moyenne contre 31,2, corrélation 0,91, et nettement plus basse en roue
   libre dans les descentes. La distance qu'on en tirerait serait ~12 % plus courte que celle de MyWhoosh.
 - **Pente** : le Neo ne connaît que **la consigne** que MyWhoosh lui envoie, pas la pente de la route. Lue en page 71
-  (en la demandant, page 70, sur `6E40FEC3`) : corrélation 0,98 avec le profil, mais **≈ 0,55 × la pente réelle en
-  montée** (réglage de difficulté de MyWhoosh) et **plafonnée à −2 % en descente**. Elle dit ce que les jambes ont
-  senti, pas ce que la route faisait.
+  (en la demandant, page 70, sur `6E40FEC3`) : corrélation 0,98 avec le profil, mais **0,55 × la pente réelle en
+  montée** — exactement le réglage « difficulté » de MyWhoosh, vérifié à 55 % et **plafonnée à −2 % en descente**. Elle dit ce que les jambes ont
+  senti, pas ce que la route faisait. Connaissant le réglage, on retrouverait la pente réelle des montées
+  (consigne ÷ 0,55, à 0,25 point près) ; pas celle des descentes, écrêtées.
 - La pente et l'altitude réelles n'existent que dans MyWhoosh : on ne les aura qu'avec son FIT, après coup.
 - Lire la page 71 impose d'**écrire** une demande au Neo : ce n'est pas une consigne de résistance, mais cela déroge
   au principe « DS écoute seulement ». À décider avant de l'utiliser dans l'app.
