@@ -63,6 +63,26 @@ servir à l'auto-pause (vitesse nulle) mais ne doit pas être présentée comme 
 pas de pente affichée. La distance, la vitesse et le dénivelé « officiels » viendront plus tard de l'import du FIT de
 l'app indoor.
 
+## Validation de la v1 (2026-10-17)
+
+Codée par la session principale de DS dans le labo `_ui-lab/indoor-v1` (famille de séances Practice · Competition ·
+Indoor), build 2026101602 installé sur l'iPhone. Séance de 296 s marquée « indoor », comparée au FIT MyWhoosh
+(« Toulouse Plains », 284 secondes communes après un décalage d'horloge de +32 s) :
+
+| | DS | MyWhoosh |
+|---|---|---|
+| Puissance moyenne | 208,2 W | 210,4 W (écart moyen 10,9 W par seconde) |
+| Cadence moyenne | 76,4 rpm | 76,5 rpm |
+| FC moyenne | 140,4 bpm | 140,3 bpm |
+
+Aucune position ni vent enregistrés, pas d'auto-pause.
+
+- **Décision de Guillaume (17/10)** : pas de vitesse affichée en indoor pour l'instant. La vitesse du Neo n'est pas
+  celle des apps gamifiées (MyWhoosh, Zwift) ; elle conviendrait plus tard pour TrainerRoad et les logiciels non
+  gamifiés.
+- Reste au labo : le réglage Auto-pause doit afficher « Off » tant qu'un type Indoor est choisi ; ne plus écrire
+  `altRaw` ni `baro` dans les échantillons indoor.
+
 ## Caractérisation
 
 - Sous le titre principal, un sélecteur à trois positions : **Toutes · Extérieur · Indoor**, plutôt qu'un simple
