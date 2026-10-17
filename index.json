@@ -644,6 +644,16 @@
    "source": "https://www.ironman.com/races/im703-chattanooga",
    "method": "read from the organiser's vector map, corrected by hand against its turn-by-turn directions",
    "checked": "2026-10-17"
+  },
+  "fe250cfcde7e": {
+   "kind": "interpreted",
+   "url": "courses/fe250cfcde7e.gpx",
+   "km": 88.95,
+   "bytes": 89403,
+   "sha256": "de9639298ca2f325fadbd139858a891f9f259f3964a3a4eddb550ddd5db17f40",
+   "source": "https://www.ironman.com/races/im703-boulder",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-17"
   }
  }
 }
