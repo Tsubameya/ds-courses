@@ -654,6 +654,16 @@
    "source": "https://www.ironman.com/races/im703-boulder",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-17"
+  },
+  "526462c3b542": {
+   "kind": "interpreted",
+   "url": "courses/526462c3b542.gpx",
+   "km": 91.58,
+   "bytes": 52550,
+   "sha256": "22551ec7d759e466283bbabf5c05cae3bdb6ce1628e123ca9a3a1918307f6612",
+   "source": "https://www.ironman.com/races/im703-ohio",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-17"
   }
  }
 }
