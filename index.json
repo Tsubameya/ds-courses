@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-12",
+ "updated": "2026-10-17",
  "courses": {
   "318833fb955f": {
    "kind": "interpreted",
@@ -634,6 +634,16 @@
    "format": "kml",
    "posted": "2024-11",
    "needs": 2
+  },
+  "b761f395b446": {
+   "kind": "interpreted",
+   "url": "courses/b761f395b446.gpx",
+   "km": 91.6,
+   "bytes": 131812,
+   "sha256": "82123c871aa6c60a31a68570469d9df3331419e5cad712daa7af8dad5b593e1f",
+   "source": "https://www.ironman.com/races/im703-chattanooga",
+   "method": "read from the organiser's vector map, corrected by hand against its turn-by-turn directions",
+   "checked": "2026-10-17"
   }
  }
 }
