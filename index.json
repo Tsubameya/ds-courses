@@ -1,6 +1,6 @@
 {
  "version": 1,
- "updated": "2026-10-18",
+ "updated": "2026-10-24",
  "courses": {
   "318833fb955f": {
    "kind": "interpreted",
@@ -674,6 +674,16 @@
    "source": "https://www.ironman.com/races/im703-omaha",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-18"
+  },
+  "81da51a45d1c": {
+   "kind": "interpreted",
+   "url": "courses/81da51a45d1c.gpx",
+   "km": 92.28,
+   "bytes": 187377,
+   "sha256": "2780fa9cce019ba68b3cc67106c90d4f9e57cff3dab7a76ca4a04048a912dce7",
+   "source": "https://www.ironman.com/races/im703-oregon",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-24"
   }
  }
 }
