@@ -714,6 +714,16 @@
    "source": "https://www.ironman.com/races/im703-florida",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-24"
+  },
+  "ecb91a767fc8": {
+   "kind": "interpreted",
+   "url": "courses/ecb91a767fc8.gpx",
+   "km": 91.34,
+   "bytes": 60745,
+   "sha256": "b86d949f68d96e702b42c4b762e52600cb696ad62b16e6736212e343b45989cf",
+   "source": "https://www.ironman.com/races/im703-musselman",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-24"
   }
  }
 }
