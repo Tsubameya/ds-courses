@@ -684,6 +684,16 @@
    "source": "https://www.ironman.com/races/im703-oregon",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-24"
+  },
+  "1bac75603e5b": {
+   "kind": "interpreted",
+   "url": "courses/1bac75603e5b.gpx",
+   "km": 89.29,
+   "bytes": 161071,
+   "sha256": "0edfa2f6f96b499bf97f2f75a1e33ff2d915d7995c11f8568c6f804e9ab784a9",
+   "source": "https://www.ironman.com/races/im703-santa-cruz",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-24"
   }
  }
 }
