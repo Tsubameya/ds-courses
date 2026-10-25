@@ -704,6 +704,16 @@
    "source": "https://www.ironman.com/races/im703-eagleman",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-24"
+  },
+  "b69feb04d743": {
+   "kind": "interpreted",
+   "url": "courses/b69feb04d743.gpx",
+   "km": 89.94,
+   "bytes": 103845,
+   "sha256": "8f24db08fe266b8df878157f989529713538513c9f64a34901c264896965a0ff",
+   "source": "https://www.ironman.com/races/im703-florida",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-24"
   }
  }
 }
