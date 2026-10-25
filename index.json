@@ -694,6 +694,16 @@
    "source": "https://www.ironman.com/races/im703-santa-cruz",
    "method": "read from the organiser's vector map, corrected and checked in Route Checker",
    "checked": "2026-10-24"
+  },
+  "16d6cd4c0f50": {
+   "kind": "interpreted",
+   "url": "courses/16d6cd4c0f50.gpx",
+   "km": 90.58,
+   "bytes": 150122,
+   "sha256": "3602dd1a4ff81a513dba2375a17946291704e8f2167490a90ab86f2acd688ae8",
+   "source": "https://www.ironman.com/races/im703-eagleman",
+   "method": "read from the organiser's vector map, corrected and checked in Route Checker",
+   "checked": "2026-10-24"
   }
  }
 }
